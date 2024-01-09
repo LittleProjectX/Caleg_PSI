@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class CardProgram extends StatelessWidget {
+class CardProgramWeb extends StatelessWidget {
   final String image, title, subtitle;
-  const CardProgram(
+  const CardProgramWeb(
       {super.key,
       required this.image,
       required this.title,

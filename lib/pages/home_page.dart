@@ -1,7 +1,9 @@
 // ignore_for_file: library_private_types_in_public_api
 
 import 'package:caleg_psi2/widgets/card_programs.dart';
+import 'package:caleg_psi2/widgets/card_programs_web.dart';
 import 'package:caleg_psi2/widgets/card_testim.dart';
+import 'package:caleg_psi2/widgets/card_testim_web.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
@@ -195,7 +197,7 @@ class _HomePageState extends State<HomePage> {
                                   curve: Curves.easeInOut,
                                 );
                               },
-                              child: const CardTestim(
+                              child: const CardTestimWeb(
                                 avatar: 'assets/seniman.png',
                                 title: 'Profil',
                                 subtitle: 'Kenali Profil saya lebih detail.',
@@ -209,15 +211,15 @@ class _HomePageState extends State<HomePage> {
                                   curve: Curves.easeInOut,
                                 );
                               },
-                              child: const CardTestim(
-                                avatar: 'assets/target.jpg',
+                              child: const CardProgramWeb(
+                                image: 'assets/target.jpg',
                                 title: 'Program',
                                 subtitle:
                                     'Visi & Misi untuk membangun Kota Batam Lebih maju lagi.',
                               ),
                             ),
-                            const CardTestim(
-                              avatar: 'assets/star.jpg',
+                            const CardProgramWeb(
+                              image: 'assets/star.jpg',
                               title: 'Testimoni',
                               subtitle:
                                   'Silahkan masukkan testimoni terbaik anda kepada saya.',
@@ -289,17 +291,17 @@ class _HomePageState extends State<HomePage> {
                                   SizedBox(
                                     height: 10,
                                   ),
-                                  CardProgram(
+                                  CardProgramWeb(
                                       image: 'assets/seniman.png',
                                       title: 'Judul Program 1',
                                       subtitle:
                                           'Deskripsi lengkap tentang program yang akan dilakukan, Deskripsi lengkap tentang program yang akan dilakukan'),
-                                  CardProgram(
+                                  CardProgramWeb(
                                       image: 'assets/seniman.png',
                                       title: 'Judul Program 2',
                                       subtitle:
                                           'Deskripsi lengkap tentang program yang akan dilakukan, Deskripsi lengkap tentang program yang akan dilakukan'),
-                                  CardProgram(
+                                  CardProgramWeb(
                                       image: 'assets/seniman.png',
                                       title: 'Judul Program 3',
                                       subtitle:
